@@ -1,0 +1,336 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
+
+body {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	color: #777;
+}
+
+
+#top-header {
+	background: #f2f2f2;
+}
+
+ul#top-menu {
+	padding: 0px;
+	margin: 5px 0;
+	list-style: none;
+}
+
+ul#top-menu li {
+	list-style: none;
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+ul#top-menu li a {
+	color: #555;
+}
+
+#main-header h1 {
+	margin: 10px 0 10px 0;
+	display: block;
+}
+
+ul#main-menu {
+	padding: 0px;
+	margin: 25px 0;
+	list-style: none;
+}
+
+ul#main-menu li {
+	list-style: none;
+	float: left;
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 140%;
+}
+
+ul#main-menu li a {
+	color: #555;
+
+}
+
+ul#main-menu li a:hover {
+	color: #006493;
+	text-decoration: none;
+}
+
+
+#presentation {
+	background: url(../img/servers.jpg) no-repeat center top;
+	text-align: center;
+}
+
+#presentation h2 {
+	color: #FFF;
+	margin: 35px 0;
+}
+
+#package-one, #package-two, #package-three {
+	float: left;
+}
+
+#package-one, #package-three {
+	width: 31%;
+	background: url(../img/package13bg.jpg) repeat-x center top #e7e7e7;
+	margin-top: 30px;
+	height: 420px;
+	border-top: 1px solid #fff;
+}
+
+.package h3 {
+	font-size: 250%;
+	font-weight: 300;
+}
+
+#package-two {
+	width: 38%;
+	background: url(../img/package2bg.jpg) repeat-x center top #0189c8;
+	margin-top: 0px;
+	height: 450px;
+	color: #FFF;
+	border-top: 1px solid #0186c4;
+	border-left: 1px solid #0186c4;
+	border-right: 1px solid #0186c4;
+}
+
+.package ul.package-features {
+	list-style: none;
+	margin: 15px 25px;
+	padding: 0px;
+
+}
+
+#package-two.package ul.package-features {
+	margin: 15px 35px;
+}
+
+.package ul.package-features li {
+	list-style: none;
+	text-align: left;
+	font-size: 130%;
+	font-weight: 300;
+	margin: 5px 0;
+	padding-left: 35px;
+	border: 1px solid #DDD;
+	height: 35px;
+	border-radius: 35px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	line-height: 35px;
+	background: url(../img/true.png) no-repeat left 10px center;
+}
+
+#package-two.package  ul.package-features li  {
+	border: 1px solid #33a6db;
+}
+
+.package .price {
+	font-size: 300%;
+	font-weight: 300;
+}
+
+.package button {
+	height: 37px;
+	font-size: 130%;
+	border-top: none;
+	border-left: none;
+	border-bottom: 2px solid #0062a5;
+	border-right: 2px solid #0062a5;
+	border-radius: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 37px;
+	color: #FFF;
+	background: rgba(1,137,200,1);
+	background: -moz-linear-gradient(top, rgba(1,137,200,1) 0%, rgba(0,105,153,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1,137,200,1)), color-stop(100%, rgba(0,105,153,1)));
+	background: -webkit-linear-gradient(top, rgba(1,137,200,1) 0%, rgba(0,105,153,1) 100%);
+	background: -o-linear-gradient(top, rgba(1,137,200,1) 0%, rgba(0,105,153,1) 100%);
+	background: -ms-linear-gradient(top, rgba(1,137,200,1) 0%, rgba(0,105,153,1) 100%);
+	background: linear-gradient(to bottom, rgba(1,137,200,1) 0%, rgba(0,105,153,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0189c8', endColorstr='#006999', GradientType=0 );
+}
+
+#package-two.package button {
+	height: 45px;
+	font-size: 180%;
+	border-top: none;
+	border-left: none;
+	border-bottom: 2px solid #BBB;
+	border-right: 2px solid #BBB;
+	border-radius: 45px;
+	padding: auto 15px;
+	line-height: 45px;
+	color: #000;
+	background: rgba(255,255,255,1);
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(214,214,214,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(214,214,214,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(214,214,214,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(214,214,214,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(214,214,214,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(214,214,214,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d6d6', GradientType=0 );
+}
+
+#features {
+	background: url(../img/patternbg.png) center top #555;
+	padding: 35px 0;
+}
+
+#features h2 {
+	text-transform: uppercase;
+	font-size: 250%;
+	font-weight: 300;
+	color: #ddd;
+	text-shadow: 0px -1px 0px #222;
+}
+
+ul#features-list {
+	display: block;
+	overflow: hidden;
+	margin: 30px 5% 20px 5%;
+	padding: 0px;
+	list-style: none;
+}
+
+ul#features-list li {
+	list-style: none;
+	padding: 0px;
+	margin: 7px 0;
+	font-size: 150%;
+	color: #bbb;
+	text-shadow: 0px -1px 0px #222;
+}
+
+ul#features-list li img {
+	width: 45px;
+	height: 45px;
+	margin-right: 15px;
+}
+
+#home-content {
+	padding: 35px 0;
+}
+
+#home-content h2 {
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	font-size: 250%;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+#home-content p {
+	text-align: justify;
+}
+
+#domain-action {
+	background: url(../img/package2bg.jpg) repeat-x center top #006493;
+	padding: 25px 0;
+}
+
+#domain-action h2 {
+	font-size: 250%;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	color: #FFF;
+}
+
+#domain-action form {
+	padding: 15px 25px;
+	margin: 0px auto;
+	width: 600px;
+}
+
+#domain-action .form-control {
+	border: none;
+	box-shadow: none;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	font-size: 150%;
+	height: 50px;
+	padding: 10px;
+}
+
+#domain-action .btn {
+	text-transform: uppercase;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 50px;
+	border: 0px;
+	padding: 0px 15px;
+}
+
+#bottom {
+	background: url(../img/patternbg.png) center top #555;
+	padding: 25px 0px 35px 0px;
+}
+
+#bottom h2 {
+	color: #fff;
+	font-size: 120%;
+}
+
+ul.footer-nav {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.footer-nav li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.footer-nav li a {
+	color: #ccc;
+}
+
+ul#social-links  {
+	list-style: none;
+	margin: 5px 0 15px 0;
+	padding: 0px;
+}
+
+ul#social-links li {
+	list-style: none;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+#copyright {
+	background: #ddd;
+	color: #555;
+	text-align: center;
+	padding: 10px 0 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+/* For mobile Devices */
+@media screen and (max-width: 767px) {
+
+	#main-header h1 {
+		text-align: center;
+		margin: 10px 0 10px 0;
+		display: block;
+	}
+
+	#presentation {
+		background: url(../img/servers.jpg) repeat center top;
+	}
+
+	#package-one, #package-two, #package-three {
+		float: none;
+		clear: both;
+	}
+
+	#package-one, #package-three {
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+
+	#package-two {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.package ul.package-features {
+		margin: 15px 15px;
+	}
+
+	#package-two.package ul.package-features {
+		margin: 15px 15px;
+	}
+
+	ul#features-list li img {
+		width: 25px;
+		height: 25px;
+		margin-right: 5px;
+	}
+
+	ul#features-list li {
+		margin: 10px 0;
+		font-size: 110%;
+	}
+
+	ul#features-list li.clearfix {
+		display: none;
+	}
+
+
+}
